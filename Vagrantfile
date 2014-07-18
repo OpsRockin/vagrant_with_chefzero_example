@@ -40,7 +40,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       cz.add_recipe 'recipe[chef-zero::default]'
       cz.json = {
         "chef-zero" => {
-          "version" => '2.0.2',
+          "version" => '2.2',
           "install" => true,
           "start"   => true
         }
